@@ -1,6 +1,6 @@
 from crews.refiner import search_axis_refiner
 import json
-from utils import extract_json_from_response
+from neuron.intelligence.utils import extract_json_from_response
 from axes import AXIS_REGISTRY, Axes
 import asyncio
 from collections.abc import Coroutine

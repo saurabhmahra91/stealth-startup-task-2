@@ -1,6 +1,6 @@
 from litellm import completion
 import json
-from utils import get_followup_axes
+from neuron.intelligence.utils import get_followup_axes
 
 
 FOLLOWUP_SYSTEM_PROMPT = f"""

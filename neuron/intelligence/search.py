@@ -1,6 +1,6 @@
-from justification import _justify
-from followup import _ask_followup
-from refinement import _refine_axes
+from neuron.intelligence.justification import _justify
+from neuron.intelligence.followup import _ask_followup
+from neuron.intelligence.refinement import _refine_axes
 from crewai.flow.flow import Flow, listen, start
 from pydantic import BaseModel
 
